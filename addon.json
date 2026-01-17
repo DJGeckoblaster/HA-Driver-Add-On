@@ -1,0 +1,12 @@
+{
+  "name": "Linux Touch Driver Add-On",
+  "version": "1.0.0",
+  "description": "Ein Add-On, das meinen Linux-Treiber für Home Assistant bereitstellt.",
+  "url": "https://github.com/DJGeckoblaster/HA-Driver-Add-On",
+  "author": "Frederick Geck",
+  "icon": "eGTouchU.png",
+  "start": "setup.sh",
+  "network": "host",
+  "privileged": true,
+  "restart": true
+}

@@ -1,0 +1,11 @@
+###for ingore inbox driver###
+
+ACTION=="add", ENV{ID_VENDOR_ID}=="0eef", ENV{ID_INPUT}=""
+ACTION=="add", ENV{DEVPATH}=="*0EEF*", ENV{ID_INPUT}=""
+
+###for ingore inbox driver###
+
+
+
+
+

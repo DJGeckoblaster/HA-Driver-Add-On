@@ -1,0 +1,11 @@
+name: Linux Touch Driver
+version: 1.0.0
+slug: lin-driver
+description: Treiber für Home Assistant
+arch: [amd64]
+startup: application
+init: false
+privileged:
+  - host
+devices:
+  - /dev/ttyS1
